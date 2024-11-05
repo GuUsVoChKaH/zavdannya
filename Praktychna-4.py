@@ -28,6 +28,6 @@ def sortingg(sorting_element):
     return number + strings
 
     
-uniq_list_element = (r_duplicate(3,1,2,3,4,5,6,3,4,5,7,6,5,4,3,4,5,4,3, 'допобачення', 'перепідвиверт'))
+uniq_list_element = (r_duplicate(2,3,4,5,6,5,1,3,7,4,2,3,5,6,7,5,7,8,9,1,0,7,6,4,4,3 'допобачення', 'перепідвиверт'))
 uniq_list_element_sort = (sortingg(uniq_list_element))
 print (f'uniq list {uniq_list_element} \n\n sort_uniq_list {uniq_list_element_sort} ' )
